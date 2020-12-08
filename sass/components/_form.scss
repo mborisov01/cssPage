@@ -1,0 +1,26 @@
+.form {
+  &__group {
+  }
+  &__input:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  &__input {
+    font-size: 1.4rem;
+    font-family: inherit;
+    padding: 1.4rem 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 80%;
+    display: block;
+  }
+  &__input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid $primary-color;
+  }
+  &__label {
+    font-size: 1rem;
+  }
+}

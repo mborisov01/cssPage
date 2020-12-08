@@ -1,0 +1,25 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "css training landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mborisov01/cssPage.git"
+  },
+  "author": "mborisov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mborisov01/cssPage/issues"
+  },
+  "homepage": "https://github.com/mborisov01/cssPage#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
+}
