@@ -1,7 +1,7 @@
 {
   "name": "landing_page",
   "version": "1.0.0",
-  "description": "css training landing page",
+  "description": "css landing page",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
